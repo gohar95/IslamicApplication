@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MRSMOfficial</string>
+    <string name="zuhar">ظهر</string>
+    <string name="asr">عصر</string>
+    <string name="maghrib">مغرب</string>
+    <string name="isha">عشاء</string>
+    <string name="calculate_your_qaza_namaz">اپنے قضا نامز کا حساب لگائیں</string>
+    <string name="current_age">موجودہ عمر</string>
+    <string name="years_to_complete_qaza_namaz">"قضا نامز کو مکمل کرنے کے سال "</string>
+    <string name="check">چیک کریں</string>
+    <string name="instructions">"ہدایات "</string>
+    <string name="namaz">نماز</string>
+    <string name="total_qaza">کل قضا</string>
+    <string name="qaza_day">قضا / یوم</string>
+    <string name="_2">2</string>
+    <string name="zohar">ظهر</string>
+    <string name="_4">4</string>
+    <string name="asar">عصر</string>
+    <string name="EnterName">اپنا نام درج کریں</string>
+    <string name="for_optimal_results_use_landscape_mode">"زیادہ سے زیادہ نتائج کے   زمین کی تزئین کی وضع کا استعمال کریں "</string>
+    <string name="share">"بانٹیں "</string>
+    <string name="enter_your_name">"اپنا نام درج کریں "</string>
+    <string name="enter_your_fathers_name">اپنے باپ کا نام درج کریں</string>
+    <string name="enter_your_age">اپنی عمر درج کریں</string>
+    <string name="enter_your_qualification">"اپنی اہلیت درج کریں "</string>
+    <string name="enter_your_email_address">اپنا ای میل کا پتا لکھو</string>
+    <string name="enter_your_city">اپنا شہر درج کریں</string>
+    <string name="enter_phone_number">فون نمبر درج کریں</string>
+    <string name="enter_your_address">اپنا پتہ درج کریں</string>
+    <string name="fajar">فجر</string>
+    <string name="select_namaz_to_pray">" نماز کو منتخب کریں"</string>
+    <string name="_3">3</string>
+    <string name="_7">7</string>
+    <string name="events">تقریبات</string>
+    <string name="activities">سرگرمیاں</string>
+    <string name="playlist">پلے لسٹ</string>
+    <string name="watch_your_favourite_videos">اپنی پسندیدہ وڈیو دیکھیں</string>
+    <string name="find_your_qibla_direction">اپنی قبلہ سمت تلاش کریں</string>
+    <string name="qibla_direction">قبلہ سمت</string>
+    <string name="qaza_namaz_calculator">قضا نماز کیلکولیٹر</string>
+    <string name="qaza_calculate">اپنے قضا نماز کا حساب لگائیں</string>
+    <string name="share_application">شیئر</string>
+    <string name="share_our_application">ہمارا پروجیکٹ شیئر کریں</string>
+    <string name="donate_us">ہمیں عطیہ کریں</string>
+    <string name="help_us_grow_our_organization_by_donation">"عطیہ کے ذریعہ ہماری تنظیم میں اضافہ کرنے میں مدد کریں "</string>
+    <string name="markaz_e_mustafa_international">مرکز مصطفیٰ انٹرنیشنل</string>
+    <string name="home">گھر</string>
+    <string name="namaz_timings">نماز وقت</string>
+    <string name="mureed_section">مرید سیکشن</string>
+    <string name="membership_section">ممبرشپ سیکشن</string>
+    <string name="donate">ہمیں عطیہ کریں</string>
+    <string name="share_app">ایپ شیئر کریں</string>
+    <string name="about_us">ہمارے بارے میں</string>
+    <string name="farz">فرض</string>
+
+
+</resources>

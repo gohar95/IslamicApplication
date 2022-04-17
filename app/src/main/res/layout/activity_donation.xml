@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGreen"
+
+    tools:context=".Activities.ActivityDonation">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkGreen">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_back" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logonavbar" />
+        <Button
+            android:id="@+id/btn_donation"
+            android:textColor="@color/golden"
+            android:text="Urdu"
+            android:backgroundTint="@color/darkGreen"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+        <ViewStub
+            android:id="@+id/view_image"
+            android:layout_below="@id/toolbar"
+            android:layout="@layout/donationurdu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/img_eng"
+            android:layout_below="@id/toolbar"
+            android:src="@drawable/donationeng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+
+</RelativeLayout>

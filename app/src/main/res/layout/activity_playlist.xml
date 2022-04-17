@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".YoutubeAPI.PlaylistActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/lightGreen"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/btn_back"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <ImageView
+            android:background="@drawable/logonavbar"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout
+        android:background="@color/darkGreen"
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+     <ProgressBar
+         android:id="@+id/pg_progress"
+         android:indeterminateTint="@color/golden"
+         android:layout_gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+</LinearLayout>

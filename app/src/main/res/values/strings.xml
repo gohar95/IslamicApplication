@@ -1,0 +1,96 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MRSMOfficial</string>
+    <string name="places_api" translatable="false">
+   AIzaSyCn_Rpi7ierJ-yxJS-xCGSMfAjSfoz7_u4
+    </string>
+    <string name="birth" translatable="false">عالمی مبلغ اسلام پیرزادہ محمد رضا ثاقب مصطفائی 16 مارچ 1972 کو کامونکی (گوجرانوالہ )کے نواحی گاؤں مصطفٰے آباد شریف میں سلسلہ عالیہ نقشبندیہ کے عظیم روحانی بزرگ  الحاج خواجہ دین محمد مصطفائی کے ہاں پیدا ہوئے۔
+    </string>
+    <string name="education" translatable="false">
+        وحانی بزرگ  الحاج خواجہ دین محمد مصطفائی کے ہاں پیدا ہوئے۔
+قرآن مجید اور فارسی کی ابتدائی کتب اپنے والدِ گرامی سے پڑھیں جبکہ میٹرک تک کی تعلیم مقامی سکول سے ہی حاصل کی استاذ الاکابر ، امامِ اہلسنت علامہ ابو البرکات سید احمد قادری الوری کےشاگرد رشید شیخ الحدیث مفتی محمد حبیب اللہ نقشبندی ، جامع معقول و منقول مفتی  محمد نصرت اللہ مجددی فارابی ، شیخ الحدیث حافظ محمد عالم محدث سیالکوٹی علیھم الرحمہ اور  دیگر جیّد اساتذہ سے درسِ نظامی کی تکمیل کی - الشھادۃ العالمیہ ( ایم اے عربی واسلامیات ) اور علوم السنہ شرقیہ میں نمایاں کامیابی کےبعد 1993 میں مسندِ تدریس سنبھالی تو قرآن وحدیث ، فقہ اسلامی ٫فلسفہ و منطق ٫ادب و انشاء اور دیگر علوم و فنون سے ہزاروں تشنگان علم کو سیراب کیا اور یہ سلسلہ تا ہنوز جاری و ساری ہے
+    </string>
+    <string name="Safar" translatable="false">
+        1994 میں ولی کامل حضرت خواجہ میاں محمد جی مصطفائی اور اپنے مرشد و مربی خواجہ دین محمد مصطفائی سے خلافت و اجازت پائی اور سالکان طریقت کی سلوک نقشبندیہ کے مطابق تربیت کا آغاز کیا -
+    </string>
+    <string name="para4" translatable="false">
+        1995 میں مرکزی جامع مسجد گلزار مدینہ  (لوہیانوالہ) کا سنگ بنیاد رکھا اور 1998  میں جامعۃ المصطفے کا آغاز کیا - 14اگست 2000 ء میں مصطفائی اجتماع کے موقع پر عالمگیر  روحانی تحریک ادارۃ المصطفے کی طرح ڈالی جس کا بنیادی مقصد ترویجِ شریعت اور احیاء سنت قرار پایا اور درسِ قرآن کی تحریک کا  باقاعدہ آغاز کر دیا  گیا
+2003میں  مرکزی جامع مسجد محمدی (گوجرانوالہ کینٹ ) میں خطبات کا سلسلہ شروع کیا   بعد ازاں مسجد سے متصل محمدی اسلامک سنٹر  (برائے طلباء  )اور محمدی اسلامک سنٹر( برائے  طالبات )کا  اضافہ کیا گیا الحمد للّٰہ  یہ گوجرانوالہ کی سب سے خوبصورت مسجد ہونے کا اعزاز لیے ہوئے ہے
+    </string>
+    <string name="para5" translatable="false">
+        2005 میں وسیع وعریض جگہ پر  12 ربیع الاول شریف  بوقت صبحِ صادق مرکزِ مصطفے انٹرنیشنل کا سنگِ بنیاد رکھاگیا  - 2006میں دختران ملت کی فکری تربیت گاہ الکلیۃ المصطفویہ للبنات کا قیام عمل میں لایا گیا
+    </string>
+    <string name="para6" translatable="false">
+        عالمی مبلغ اسلام پیرزادہ محمد رضا ثاقب مصطفائی وطن عزیز پاکستان  اور دنیا کے پانچ برآعظموں میں مسلسل تبلیغی اسفار کر چکے ہیں نیز الیکٹرانک اور سوشل میڈیا کے ذریعے کروڑوں لوگوں تک پیغام حق کا ابلاغ انکا بہت بڑا اعزاز ہے - مختلف  سرکاری و غیر سرکاری اداروں اور یونیورسٹیز میں بطور خاص لیکچرز کے لئے مدعو کئے جاتے ہیں - تمام طبقہ ہائے زندگی بالخصوص نوجوان ان سے شدید محبت کرتے ہیں - دنیا کا کوئی گوشہ ایسا نہیں جہاں انکے فالوورز موجود نہ ہوں
+    </string>
+    <string name="para7" translatable="false">
+        مبلغین کی ایک  مخلص جماعت انکی ہم رکاب ہے اور فارغ التحصیل ہونے والے علماء کی تازہ کھیپ نئے امکانات روشن کر رہی ہے  - ملک بھر میں مساجد اور جامعات کی تعمیرات کا سلسلہ جاری ہے
+    </string>
+    <string name="para8" translatable="false">
+        نہوں نے اپنے متعلقین ومبایعین کو ملک کے مختلف علاقوں میں المصطفے اسلامک سنٹرز قائم کرنے کی ترغیب دی ہے - یہاں یہ بات  بھی قابل ذکر ہے کہ وہ تلامذہ اور مریدین  کو اپنے نام  کی بجائے مصطفائی نسبت سے اعزاز  حاصل کرنے کی تلقین کرتے ہیں- اسلام کی نشأۃ ونہضت ، ملت کی وحدت اور امت کی اصلاح کا جذبہ انکے سینے میں ہمیشہ موج زن رہتا ہے  - صحیفۂ رحمت قرآن مجید اور محبت رسول صلی اللہ علیہ وآلہ وسلم کے ذریعے وقار امت کی بحالی کا خواب دیکھتے ہیں اور تعبیر پانے کےلئےجہد مسلسل پر یقین رکھتے ہیں
+    </string>
+    <string name="para9" translatable="false">
+        دارۃ المصطفے  ٫مرکز مصطفے ٫جامعۃ المصطفے ٫الکلیۃ المصطفویہ للبنات  ٫ المصطفے اسلامک سنٹرز  ٫ المصطفے ایمبولینس سروس  ٫ ادارۃ المصطفے ٹرسٹ  اسی جہد مسلسل کے منزل نواز راستے ہیں
+
+    </string>
+    <string name="muhammad_raza_saqib_mustafai" translatable="false">Muhammad Raza Saqib Mustafai</string>
+    <string name="for_optimal_results_use_landscape_mode">For Optimal Results Use Landscape Mode</string>
+    <string name="share">Share</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_fathers_name">Enter Your Fathers Name</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="enter_your_qualification">Enter Your Qualification</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="enter_your_city">Enter Your City</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="fajar">Fajar</string>
+    <string name="zuhar">Zuhar</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="calculate_your_qaza_namaz">Calculate Your Qaza Namaz</string>
+    <string name="current_age">Current Age</string>
+    <string name="years_to_complete_qaza_namaz">Years to Complete Qaza Namaz</string>
+    <string name="select_namaz_to_pray">Select Namaz to Pray</string>
+
+    <string name="check">Check</string>
+    <string name="instructions">Instructions</string>
+    <string name="qaza_first" translatable="false">ہر فرض نماز جس کی ادائیگی کا وقت گزر جائے ، تو وہ قضا نماز کہلائے گی۔</string>
+    <string name="qaza_second" translatable="false">قضا نمازوں کو مکروہ اوقات کے علاوہ کسی بھی وقت ادا کیا جا سکتا ہے۔</string>
+    <string name="qaza_third" translatable="false">قضا صرف فرضوں کی ہوگی۔ جیسے عصر کی نماز میں چار سنتیں اور چار فرض ہیں ،</string>
+    <string name="qaza_fourth" translatable="false">لیکن اگر نماز قضا ہو جائے تو صرف چار فرض ہی ادا کئے جائیں گے۔ اور عشاء کی نماز میں فرضوں کے ساتھ وتر بھی ادا کئے جائیں گے۔</string>
+    <string name="namaz">Namaz</string>
+    <string name="total_qaza">Total Qaza</string>
+    <string name="qaza_day">Qaza/Day</string>
+    <string name="_2">2</string>
+    <string name="zohar">Zohar</string>
+    <string name="_4">4</string>
+    <string name="asar">Asar</string>
+    <string name="_3">3</string>
+    <string name="_7">7</string>
+    <string name="events">Events</string>
+    <string name="activities">Activities</string>
+    <string name="playlist">Playlist</string>
+    <string name="watch_your_favourite_videos">Watch Your Favourite VIdeos</string>
+    <string name="find_your_qibla_direction">Find Your Qibla Direction</string>
+
+    <string name="qaza_calculate">Calculate your Qaza Namaz</string>
+    <string name="share_application">Share Application</string>
+    <string name="share_our_application">Share Our Application</string>
+    <string name="donate_us">Donate us</string>
+    <string name="help_us_grow_our_organization_by_donation">Help Us Grow our Organization by Donation</string>
+    <string name="markaz_e_mustafa_international">Markaz-e-Mustafa International</string>
+    <string name="home">Home</string>
+    <string name="namaz_timings">Namaz Timings</string>
+    <string name="qaza_namaz_calculator">Qaza Namaz Calculator</string>
+    <string name="qibla_direction">Qibla Direction</string>
+    <string name="mureed_section">Mureed Section</string>
+    <string name="membership_section">Membership Section</string>
+    <string name="donate">Donate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="about_us">About Us</string>
+    <string name="EnterName">Enter Your Name</string>
+    <string name="farz">Farz</string>
+
+
+</resources>

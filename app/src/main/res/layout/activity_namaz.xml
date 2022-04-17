@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkGreen"
+    tools:context=".Activities.NamazActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/lightGreen"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/btn_back"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <ImageView
+            android:background="@drawable/logonavbar"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/golden"
+        android:gravity="center"
+        android:text="Namaz Timings"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/golden"
+        android:textSize="27sp"
+        android:id="@+id/txt_date"
+        android:layout_centerInParent="true"
+        android:src="@drawable/sunrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:textColor="@color/golden"
+            android:textSize="27sp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentStart="true"
+            android:text="Fajar     فجر"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/sunrise"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+        <TextView
+
+            android:id="@+id/FajarTV"
+            android:textColor="@color/golden"
+            android:layout_marginRight="25dp"
+            android:textSize="27sp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:textColor="@color/golden"
+            android:textSize="27sp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentStart="true"
+            android:text="Zuhar    ظهر"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/sunrise"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/ZuharTV"
+            android:textColor="@color/golden"
+            android:layout_marginRight="25dp"
+            android:textSize="27sp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:textColor="@color/golden"
+            android:textSize="27sp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentStart="true"
+            android:text="Asr     عصر"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/sunrise"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/AsrTv"
+            android:textColor="@color/golden"
+            android:layout_marginRight="25dp"
+            android:textSize="27sp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:textColor="@color/golden"
+            android:textSize="22sp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentStart="true"
+            android:text="Maghrib مغرب"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/night"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/MaghribTV"
+            android:textColor="@color/golden"
+            android:layout_marginRight="25dp"
+            android:textSize="27sp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:textColor="@color/golden"
+            android:textSize="27sp"
+            android:layout_marginLeft="25dp"
+            android:layout_alignParentStart="true"
+            android:text="Isha     عشاء"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/night"
+            android:layout_width="50dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/IshaTV"
+            android:textColor="@color/golden"
+            android:layout_marginRight="25dp"
+            android:textSize="27sp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Tap on button below to get your location"
+        android:fontFamily="@font/nastaleeq"
+        android:textColor="@color/golden"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Get Your Location"
+        android:id="@+id/btn_custom_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

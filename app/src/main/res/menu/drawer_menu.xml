@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:id="@+id/menu_group_1">
+        <item
+
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/menu_playlist"
+            android:icon="@drawable/playlist"
+            android:title="@string/playlist" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_namaz_calculation"
+            android:icon="@drawable/ic_namaz_timing"
+            android:title="@string/namaz_timings" />
+        <item
+            android:id="@+id/menu_qaza_namaz"
+            android:icon="@drawable/ic_calculate"
+            android:title="@string/qaza_namaz_calculator" />
+        <item
+            android:id="@+id/menu_qibla"
+            android:icon="@drawable/ic_qibla"
+            android:title="@string/qibla_direction" />
+    </group>
+
+
+    <group
+        android:id="@+id/menu_group_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_mureed"
+            android:icon="@drawable/ic_mureed"
+            android:title="@string/mureed_section" />
+        <item
+            android:id="@+id/menu_membership"
+            android:icon="@drawable/icon_membership"
+            android:title="@string/membership_section" />
+    </group>
+
+    <group
+        android:id="@+id/menu_group_4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_donate"
+            android:icon="@drawable/icon_donate"
+            android:title="@string/donate" />
+
+
+        <item
+            android:id="@+id/menu_share"
+            android:icon="@drawable/icon_share"
+            android:title="@string/share_app" />
+
+        <item
+            android:id="@+id/menu_about_us"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us"
+
+            />
+    </group>
+
+
+</menu>

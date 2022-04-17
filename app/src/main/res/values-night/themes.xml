@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="missing_time_Style_label_time">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="missing_time_Style_label">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="missing_time_Style_name">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="missing_time_Style">
+        <item name="android:textSize">60.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="widget_missing_time_Style">
+        <item name="android:textSize">40.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="time_label_widget2">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="time_value_widget2">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="time_label">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="time_value">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="locationStyle">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="hijri_miladi_label">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="AlertProgressCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.MRSFOfficial" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

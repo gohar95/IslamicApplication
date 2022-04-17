@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGreen"
+    tools:context=".Activities.ActivityQazaNamaz">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:background="@color/lightGreen"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_gravity="start"
+                android:background="@drawable/ic_back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:background="@drawable/logonavbar"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:text="@string/calculate_your_qaza_namaz"
+            android:textColor="@color/golden"
+            android:textSize="25sp" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:background="@drawable/custom_edittext"
+            android:id="@+id/edt_qaza_namaz"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:layout_marginRight="25dp"
+            android:hint="Current Age                                                    موجودہ عمر"
+            android:inputType="number"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingLeft="20dp"
+            android:background="@drawable/custom_edittext"
+            android:id="@+id/edt_duarion_completion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:textSize="12sp"
+            android:hint="Years to Complete Qaza Namaz  قضا نماز کو مکمل کرنے کے سال "
+            android:inputType="number"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/select_namaz_to_pray"
+            android:textColor="@color/golden"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <CheckBox
+                android:enabled="false"
+                android:fontFamily="@font/nastaleeq"
+                android:textColor="@color/golden"
+                android:buttonTint="@color/golden"
+                android:checked="true"
+                android:id="@+id/chk_fajar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fajar" />
+
+            <CheckBox
+                android:enabled="false"
+                android:fontFamily="@font/nastaleeq"
+                android:textColor="@color/golden"
+                android:buttonTint="@color/golden"
+                android:checked="true"
+                android:id="@+id/chk_zuhar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/zuhar" />
+
+            <CheckBox
+                android:enabled="false"
+                android:fontFamily="@font/nastaleeq"
+                android:textColor="@color/golden"
+                android:buttonTint="@color/golden"
+                android:checked="true"
+                android:id="@+id/chk_asr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/asr" />
+
+            <CheckBox
+                android:enabled="false"
+                android:fontFamily="@font/nastaleeq"
+                android:textColor="@color/golden"
+                android:buttonTint="@color/golden"
+                android:checked="true"
+                android:id="@+id/chk_maghrib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/maghrib" />
+
+            <CheckBox
+                android:enabled="false"
+                android:fontFamily="@font/nastaleeq"
+                android:textColor="@color/golden"
+                android:buttonTint="@color/golden"
+                android:checked="true"
+                android:id="@+id/chk_isha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/isha" />
+
+
+        </LinearLayout>
+
+        <Button
+
+            android:padding="11dp"
+            android:textColor="@color/golden"
+            android:background="@color/golden"
+            android:id="@+id/btn_check_qaza"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:text="Check " />
+
+
+        <Button
+            android:fontFamily="@font/nastaleeq"
+            android:textColor="@color/golden"
+            android:background="@color/golden"
+            android:id="@+id/btn_instruction"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/instructions" />
+
+        <TextView
+            android:textDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/nastaleeq"
+
+            android:text="@string/qaza_first"
+            android:textColor="@color/golden"
+            android:textSize="17sp" />
+
+        <TextView
+
+            android:textDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/nastaleeq"
+            android:text="@string/qaza_second"
+            android:textColor="@color/golden"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/nastaleeq"
+            android:text="@string/qaza_third"
+            android:textColor="@color/golden"
+            android:textSize="17sp" />
+
+        <TextView
+            android:textDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/nastaleeq"
+            android:text="@string/qaza_fourth"
+            android:textColor="@color/golden"
+            android:textSize="17sp" />
+
+
+
+        <TableLayout
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:stretchColumns="0,1,2,3">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/golden">
+
+
+                </TableRow>
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+
+                android:layout_weight="1"
+                android:background="@color/golden"
+
+                >
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text="@string/namaz"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text="@string/farz"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text="@string/total_qaza"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text="@string/qaza_day"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="Fajar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/_2"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_fajar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="2"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_fajar_qaza_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/zohar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/_4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_zuhar_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_zuhar_qaza_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+
+                android:background="@color/golden">
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/asar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/_4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_asar_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_asar_qaza_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/maghrib"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/_3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_maghrib_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_qaza_maghrib_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="@string/isha"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:id="@+id/txt_vitr"
+                    android:fontFamily="@font/nastaleeq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="4+3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_isha_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+                    android:fontFamily="@font/nastaleeq"
+                    android:id="@+id/txt_qaza_isha_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:background="@color/golden">
+
+            </TableRow>
+
+        </TableLayout>
+        <!--<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:stretchColumns="0,1,2,3">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/golden">
+
+
+                </TableRow>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden"
+
+                >
+
+                <TextView
+                    
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text=" Namaz"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text="Farz"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text="Total Qaza"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/lightGreen"
+                    android:gravity="center"
+                    android:text="Qaza/Day"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:paddingRight="20dp"
+                android:background="@color/golden">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=" Fajar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+
+                    android:id="@+id/txt_fajar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+
+                    android:id="@+id/txt_fajar_qaza_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=" Zohar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:id="@+id/txt_zuhar_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+
+                    android:id="@+id/txt_zuhar_qaza_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=" Asar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:id="@+id/txt_asar_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+
+                    android:id="@+id/txt_asar_qaza_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=" Maghrib"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:id="@+id/txt_maghrib_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+                    android:id="@+id/txt_qaza_maghrib_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=" Isha"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:id="@+id/txt_vitr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text="4+3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+
+                <TextView
+                    android:id="@+id/txt_isha_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+                <TextView
+                    android:id="@+id/txt_qaza_isha_namaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@color/darkGreen"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/golden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/golden">
+
+            </TableRow>
+
+        </TableLayout>
+-->
+
+    </LinearLayout>
+
+</ScrollView>

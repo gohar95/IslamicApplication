@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGreen"
+    android:orientation="vertical"
+
+    tools:context=".Activities.ActivityMembership">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/lightGreen"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <ImageView
+            android:background="@drawable/logonavbar"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/nastaleeq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Membership Form"
+            android:textColor="@color/golden"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Your Name                                         اپنا نام درج کریں"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textSize="17sp"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingRight="25dp"
+            android:id="@+id/edt_fathers_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Your Fathers Name              اپنے باپ کا نام درج کریں"
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingRight="25dp"
+            android:id="@+id/edt_age"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Your Age                                             اپنی عمر درج کریں  "
+            android:inputType="number"
+            android:paddingLeft="25dp"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingRight="25dp"
+            android:id="@+id/edt_qualification"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Your Qualification                        اپنی اہلیت درج کریں "
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingRight="25dp"
+            android:id="@+id/edt_email"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Your Email Address            اپنا ای میل کا پتا لکھو "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingRight="25dp"
+            android:id="@+id/edt_city"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Your City                                       اپنا شہر درج کریں"
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingRight="25dp"
+            android:id="@+id/edt_phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Phone Number                                فون نمبر درج کریں"
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <EditText
+            android:fontFamily="@font/nastaleeq"
+            android:paddingRight="25dp"
+            android:id="@+id/edt_address"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="17sp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Enter Your Address                                  اپنا پتہ درج کریں"
+            android:paddingLeft="25dp"
+            android:singleLine="true"
+            android:textColor="@color/golden"
+            android:textColorHint="@color/golden" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_edittext"
+            android:fontFamily="@font/nastaleeq"
+            android:text="Register     رجسٹر کریں"
+            android:textColor="@color/golden" />
+
+    </LinearLayout>
+</LinearLayout>
